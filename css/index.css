@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+/* font-family: "Mulish", sans-serif; */
+/* font-family: "Overlock", sans-serif; */
+/* font-family: "Merriweather Sans", sans-serif; */
+* {
+  font-family: "Merriweather Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../image/Background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 4.5rem;
+}
+
+img {
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.Name {
+  padding-top: 3rem;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.Section {
+  font-family: "Overlock", sans-serif;
+  font-weight: bold;
+  color: #414649;
+  font-size: 2.9rem;
+}
+
+.Subject {
+  font-family: "Mulish", sans-serif;
+  color: #808c90;
+  font-size: 1.7rem;
+}
+
+.contact {
+  padding-top: 5px;
+  font-family: "Mulish", sans-serif;
+  color: #808c90;
+  font-size: 1.2rem;
+}
+
+.icon {
+  color: #242729;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: baseline;
+}
+
+li a {
+  color: #242729;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #808c90;
+}
+
+i {
+  font-size: 50px;
+  padding: 14px 18px;
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .Section {
+    font-size: 1.5rem;
+  }
+
+  .Name {
+    font-size: 2rem;
+  }
+
+  .Subject {
+    font-size: 1rem;
+  }
+
+  .social-accounts {
+    font-size: 1rem;
+  }
+
+  .contact,
+  i {
+    margin-left: -0.5rem;
+    font-size: 0.8rem;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+  }
+
+  li a {
+    color: #242729;
+    font-size: 50px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: #808c90;
+  }
+
+  i {
+    font-size: 50px;
+    padding: 14px 18px;
+  }
+}
+
+@media (max-width: 619px) {
+  body {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .logo {
+    width: 5rem;
+  }
+
+  ul {
+    padding-top: 1rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  li a {
+    color: #242729;
+    font-size: 50px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: #808c90;
+  }
+
+  i {
+    font-size: 3rem;
+    padding: 14px 18px;
+  }
+
+  .Name {
+    font-size: 2rem;
+    margin-top: -5rem;
+  }
+
+  .Section {
+    font-size: 1.9rem;
+  }
+
+  .Subject {
+    font-size: 1.2rem;
+  }
+
+  .contact {
+    font-size: 1.1rem;
+  }
+
+  .fa-solid {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .Name {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .logo {
+    width: 4rem;
+  }
+
+  img {
+    width: 90%;
+  }
+
+  ul {
+    padding-top: 1rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+  }
+
+  li a {
+    color: #242729;
+    font-size: 0.5rem;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: #808c90;
+  }
+
+  .fa-brands {
+    font-size: 2.5rem;
+    padding: 14px 18px;
+  }
+
+  .Name {
+    font-size: 1.3rem;
+  }
+
+  .Section {
+    font-size: 1.2rem;
+  }
+
+  .Subject {
+    font-size: 1rem;
+  }
+
+  .contact {
+    font-size: 0.9rem;
+  }
+
+  .fa-solid {
+    font-size: 1rem;
+  }
+}
